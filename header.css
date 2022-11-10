@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index:1;
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.leftportion 
+{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center ;
+    
+}
+
+.flipname{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.flipicon
+{
+    width: 30px;
+    cursor: pointer;
+}
+.middleportion
+{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchbar
+{
+    width: 300px;
+    height: 36px;
+    font-size: 15px;
+    background-color:white ;
+    border-style: 0px solid;
+    outline: none;
+}
+
+.searchbutton
+{
+    margin-left: -2px ;
+    width: 42px;
+    height: 36px;
+    background-color:white ;
+    cursor: pointer;
+
+}
+.searchicon
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.loginbutt
+{
+    margin-left: 50px;
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: white;
+    color: #2874f0;
+    cursor: pointer;
+}
+.rightportion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    width: 50px;
+}
+.carttext
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.carticon
+{
+    width: 80px;
+    align-self: flex-end;
+    margin-left: -10px;
+    cursor: pointer;
+}
